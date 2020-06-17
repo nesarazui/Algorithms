@@ -35,3 +35,4 @@ const findThreeLargestNumbers = (arr) => {
     let newArr = [thirdHighest, secondHighest, firstHighest]
     return newArr
 }
+
