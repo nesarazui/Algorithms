@@ -1,6 +1,6 @@
 //Given an array of integers, find the highest product you can get from 3 of the integers
-//Takes into consideration cases where there are negative integers
-//O (n)
+//Takes into consideration cases where there are negative integers //O (n)
+
 
 
 const highestProductOf3 = (arr) => {
