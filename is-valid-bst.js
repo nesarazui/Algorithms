@@ -43,7 +43,7 @@ class BinaryTreeNode {
         if (node.left) {
             stack.push({
                     node: node.left,
-                    upperBound: node,
+                    upperBound: node.value,
                     lowerBound: lowerBound
                 })
         }
@@ -52,7 +52,7 @@ class BinaryTreeNode {
             stack.push({
                     node: node.right,
                     upperBound: upperBound,
-                    lowerBound: node
+                    lowerBound: node.value
             })
         }
     }
