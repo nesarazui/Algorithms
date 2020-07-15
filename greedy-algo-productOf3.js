@@ -50,3 +50,4 @@ const highestProductOf3 = (arr) => {
 
     return highestProductOf3
 }
+
